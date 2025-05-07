@@ -85,33 +85,24 @@ Projet full back-end orienté production, avec architecture propre et séparatio
   - `GET /api/reservations`
   - `POST /api/reservations` – réserver une place
   - `DELETE /api/reservations/{id}`
->>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
 
 ---
 
 ##  Exemple de JSON pour inscription
 
 {
-<<<<<<< HEAD
 "username": "raph",
 "email": "raph@example.com",
 "password": "securepass",
 "role": "USER"
-=======
-  "username": "raph",
-  "email": "raph@example.com",
-  "password": "securepass",
-  "role": "USER"
->>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
 }
 
 ## Lancement de l'application
 
-- mvn spring-boot:run 
-<<<<<<< HEAD
+- mvn spring-boot:run
 
 ## Auteur
 
 - Développé par Raphael Meimoun – Développeur backend en apprentissage, avec envie de casser du Java.
-=======
->>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
+
+
