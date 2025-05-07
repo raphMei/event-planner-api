@@ -39,6 +39,7 @@ Projet full back-end orienté production, avec architecture propre et séparatio
 
 ##  Endpoints principaux
 
+<<<<<<< HEAD
 ### Authentification
 
 - `POST /api/auth/register` – Inscription
@@ -61,22 +62,56 @@ Projet full back-end orienté production, avec architecture propre et séparatio
 - `GET /api/reservations`
 - `POST /api/reservations` – réserver une place
 - `DELETE /api/reservations/{id}`
+=======
+  ### Authentification
+
+  - `POST /api/auth/register` – Inscription
+  - `POST /api/auth/login` – Connexion
+
+  ### Utilisateurs
+
+  - `GET /api/users`
+  - `GET /api/users/{id}`
+  - `DELETE /api/users/{id}`
+
+  ### Événements
+
+  - `GET /api/events` – public
+  - `POST /api/events` – **ADMIN only**
+  - `DELETE /api/events/{id}` – **ADMIN only**
+
+  ### Réservations
+
+  - `GET /api/reservations`
+  - `POST /api/reservations` – réserver une place
+  - `DELETE /api/reservations/{id}`
+>>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
 
 ---
 
 ##  Exemple de JSON pour inscription
 
 {
+<<<<<<< HEAD
 "username": "raph",
 "email": "raph@example.com",
 "password": "securepass",
 "role": "USER"
+=======
+  "username": "raph",
+  "email": "raph@example.com",
+  "password": "securepass",
+  "role": "USER"
+>>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
 }
 
 ## Lancement de l'application
 
 - mvn spring-boot:run 
+<<<<<<< HEAD
 
 ## Auteur
 
 - Développé par Raphael Meimoun – Développeur backend en apprentissage, avec envie de casser du Java.
+=======
+>>>>>>> 3d997184a9eb75f9c9acae2e2067a2b24fc72933
